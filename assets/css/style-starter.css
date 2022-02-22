@@ -221,7 +221,7 @@ hr {
 
 .our-team {
   /* width:300px; */
-  padding: 60px 0 80px;
+  padding: 20px 0 80px;
   /* margin-bottom: 10px; */
   background-color: #f7f5ec;
   text-align: center;
@@ -232,9 +232,9 @@ hr {
 
 .our-team .picture {
   display: inline-block;
-  height: 200px;
-  width: 200px;
-  margin-bottom: 50px;
+  height: 300px;
+  width: 300px;
+  margin-bottom: 20px;
   z-index: 1;
   position: relative;
 }
