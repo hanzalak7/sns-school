@@ -1,168 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title> 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-  rel="stylesheet"> 
-<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
-<link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-<link href="lib/animate/animate.min.css" rel="stylesheet">
-<link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-<link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet"> 
-<link href="css/style.css" rel="stylesheet"> 
-<style>
-    *{
-        margin:0;
-        padding:0;
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Non Teaching staff<title> <!-- Required meta tags --> <meta
+      charset="utf-8"> <meta name="viewport" content="width=device-width,
+      initial-scale=1, shrink-to-fit=no"> <title>ADS Law College
+    </title>
+    <!--/google-fonts-->
+    <link
+      href="//fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!--//google-fonts-->
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/style-starter.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
         box-sizing: border-box;
-    }
-    .staff-container{
-        height: 100%;
-        width: 100%;
-        display:flex;
-        margin-top: 5.5rem;
-        padding-top: 1rem;
-        flex-wrap: wrap;
-        justify-content:space-evenly; 
-    }
-    .staff{
-        height: 300px;
-        width: 250px;
-        display:flex;
-        flex-direction:column;
-        border: 1px solid red;
-        margin-bottom: 1rem;
-    }
-    .staff-img {
-        height: 80%;
-        width:100%; 
-        border: 1px solid rgb(0, 38, 255); 
-    }
-    .staff-img img {
-        height: 100%;
-        width:100%;  
-    }
-    .staff-name{
-        height: 20%;
-        width:100%;
-        border: 1px solid rgb(0, 0, 0); 
-        display:flex;
-        justify-content:center;
-        align-items:center;
-    }
-</style>  
-</head>
-<body>
-    <header id="header" style="background-color:black">
-        <div class="container-fluid">
+      }
     
-          <div id="logo" class="pull-left">
-            <h1><a href="#intro" class="scrollto">SNS</a></h1>
-            <!-- Uncomment below if you prefer to use an image logo -->
-            <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
-          </div>
-    
-          <nav id="nav-menu-container">
-            <ul class="nav-menu">
-              <li class="menu-active"><a href="/">Home</a></li>
-              <li><a href="#about">Notice</a></li>
-              <li><a href="#services">Management</a></li>
-              <li class="menu-has-children"><a href="#">Acadamics</a>
-                <ul>
-                  <li><a href="#">Fees Structure</a></li>
-                  <li><a href="#">Achivement</a></li>
-                </ul>
-              </li>
-              <li class="menu-has-children"><a href="#">Staff</a>
-                <ul>
-                  <li><a href="#">Teaching</a></li>
-                  <li><a href="/non-teaching-staff.html">Non Teaching</a> </li>
-                </ul>
-              </li>
-              <li class="menu-has-children"><a href="#">Events</a>
-                <ul>
-                  <li><a href="#">List of Events</a></li>
-                  <li><a href="#">Photos Of Events</a> </li>
-                </ul>
-              </li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </nav><!-- #nav-menu-container -->
+    </style>
+  </head>
+  <body>
+    <header id="site-header" class="fixed-top" style="background-color:black;">
+        <div class="containerd" style="width: 100%!important;">
+            <nav class="navbar navbar-expand-lg navbar-dark stroke">
+                <h1>
+                    <a class="navbar-brand" href="index.html" style="text-shadow: 1px 1px 4px blue;">
+                        &nbsp  <span class="sub-log">SNS</span>  
+                    </a>
+                </h1>
+                <!-- if logo is image enable this   
+                        <a class="navbar-brand" href="#index.html">
+                            <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+                        </a> -->
+                <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
+                    data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                    </span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <nav class="mr-auto ml-lg-5">
+                        <!-- <div class="search-bar">
+                            <form class="search">
+                                <input type="search" class="search__input" name="search"
+                                    placeholder="Search for Courses.." onload="equalWidth()" required>
+                                <span class="fa fa-search search__icon"></span>
+                            </form>
+                        </div> -->
+                    </nav>
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="Index">Home <span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="News">Notice</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="About">Management</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link mydropdown" >Academics
+                                <ul class="myul">
+                                    <li>
+                                        <a href="#">Fees Structure</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Achievements</a>
+                                    </li>
+                                </ul>
+                            </a>
+
+                        </li>
+                
+                        <li class="nav-item">
+                            <a class="nav-link"  >Staff
+                                <ul class="myul">
+                                    <li>
+                                        <a href="#">Teaching</a>
+                                    </li>
+                                    <li>
+                                        <a href="./non-teaching-staff.html">Non Teaching</a>
+                                    </li>
+                                </ul>
+                            </a>
+                        </li>
+                        </li>
+                
+                        <li class="nav-item">
+                            <a class="nav-link">Events
+                                <ul class="myul">
+                                    <li>
+                                        <a href="#">List Of Events</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Photos Of Events</a>
+                                    </li>
+                                </ul>
+                            </a>
+                        </li>
+                      
+                        <li class="nav-item">
+                            <a class="nav-link" href="Facility">Contact</a>
+                        </li>   
+                    </ul>
+                </div>
+                <!-- toggle switch for light and dark theme -->
+
+                <div class="mobile-position">
+                    <nav class="navigation">
+                        <div class="theme-switch-wrapper">
+                            <label class="theme-switch" for="checkbox">
+                                <input type="checkbox" id="checkbox">
+                                <div class="mode-container py-1">
+                                    <i class="gg-sun"></i>
+                                    <i class="gg-moon"></i>
+                                </div>
+                            </label>
+                        </div>
+                    </nav>
+                </div>
+                <!-- //toggle switch for light and dark theme -->
+            </nav>
         </div>
-      </header><!-- #header --> 
-      <section id="intro">
-        <div class="intro-container" style="height: auto; background-color:white">
-            <div class="staff-container">
-                <div class="staff">
-                        <div class="staff-img">
-                            <img  src="" alt="non-teaching-staff" />
-                        </div>
-                        <div class="staff-name">
-                            name
-                        </div>
-                </div>
-                <div class="staff">
-                        <div class="staff-img">
-                            <img  src="" alt="non-teaching-staff" />
-                        </div>
-                        <div class="staff-name">
-                            name
-                        </div>
-                </div>
-                <div class="staff">
-                        <div class="staff-img">
-                            <img  src="" alt="non-teaching-staff" />
-                        </div>
-                        <div class="staff-name">
-                            name
-                        </div>
-                </div>
-                <div class="staff">
-                        <div class="staff-img">
-                            <img  src="" alt="non-teaching-staff" />
-                        </div>
-                        <div class="staff-name">
-                            name
-                        </div>
-                </div>
-                <div class="staff">
-                        <div class="staff-img">
-                            <img  src="" alt="non-teaching-staff" />
-                        </div>
-                        <div class="staff-name">
-                            name
-                        </div>
-                </div>
-                <div class="staff">
-                        <div class="staff-img">
-                            <img  src="" alt="non-teaching-staff" />
-                        </div>
-                        <div class="staff-name">
-                            name
-                        </div>
-                </div>
-                <div class="staff">
-                        <div class="staff-img">
-                            <img  src="" alt="non-teaching-staff" />
-                        </div>
-                        <div class="staff-name">
-                            name
-                        </div>
-                </div>
-                <div class="staff">
-                        <div class="staff-img">
-                            <img  src="" alt="non-teaching-staff" />
-                        </div>
-                        <div class="staff-name">
-                            name
-                        </div>
-                </div>
+    </header>
+    <!-- #header -->
+    <section id="intro">
+      <div
+        class="intro-container"
+        style="height: auto; background-color: white"
+      >
+        <div class="container staff-container">
+
+
+          <div class="staff" data-aos="zoom-in">
+            <div class="staff-img">
+              <img src="./assets/images/ab2.jpg" alt="Mr.Annat Barge" />
             </div>
-        </div>
-      </section><!-- #intro -->
-</body>
+            <div class="staff-name">
+                <p>Mr.Annat Barge</p>
+                <span>Bus Cleaner</span>
+            </div>
+          </div>
+
+          <div class="staff" data-aos="zoom-in">
+            <div class="staff-img">
+              <img src="./assets/images/ab2.jpg" alt="img" />
+            </div>
+            <div class="staff-name">
+                <p> Name </p>
+                <span>Cleaner</span>
+            </div>
+          </div>
+        
+
+          <div class="staff" data-aos="zoom-in">
+            <div class="staff-img">
+              <img src="./assets/images/ab2.jpg" alt="img" />
+            </div>
+            <div class="staff-name">
+                <p> Name </p>
+                <span>Cleaner</span>
+            </div>
+          </div>
+        
+
+          <div class="staff" data-aos="zoom-in">
+            <div class="staff-img">
+              <img src="./assets/images/ab2.jpg" alt="img" />
+            </div>
+            <div class="staff-name">
+                <p> Name </p>
+                <span>Cleaner</span>
+            </div>
+          </div>
+        
+
+          <div class="staff" data-aos="zoom-in">
+            <div class="staff-img">
+              <img src="./assets/images/ab2.jpg" alt="img" />
+            </div>
+            <div class="staff-name">
+                <p> Name </p>
+                <span>Cleaner</span>
+            </div>
+          </div>
+        
+
+          <div class="staff" data-aos="zoom-in">
+            <div class="staff-img">
+              <img src="./assets/images/ab2.jpg" alt="img" />
+            </div>
+            <div class="staff-name">
+                <p> Name </p>
+                <span>Cleaner</span>
+            </div>
+          </div>
+        
+
+          <div class="staff" data-aos="zoom-in">
+            <div class="staff-img">
+              <img src="./assets/images/ab2.jpg" alt="img" />
+            </div>
+            <div class="staff-name">
+                <p> Name </p>
+                <span>Cleaner</span>
+            </div>
+          </div>
+        
+
+          <div class="staff" data-aos="zoom-in">
+            <div class="staff-img">
+              <img src="./assets/images/ab2.jpg" alt="img" />
+            </div>
+            <div class="staff-name">
+                <p> Name </p>
+                <span>Cleaner</span>
+            </div>
+          </div>
+        
+      </div>
+    </section>
+    <!-- #intro -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+  </body>
 </html>
