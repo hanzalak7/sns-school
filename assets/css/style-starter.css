@@ -1,15 +1,9 @@
 @charset "UTF-8";
 
 /*--
-Author: W3layouts
-Author URL: http://w3layouts.com
+Author: Omkar And Hanzala
+Author URL: http://omkarshinde.com
 --*/
-/*!
- * Bootstrap v4.4.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
 
 * {
   box-sizing: border-box;
@@ -35,10 +29,6 @@ Author URL: http://w3layouts.com
   /* border: 1px solid rgb(0, 0, 0); */
   box-shadow: 1px 1px 3px gray, 1px 1px 5px rgba(0, 0, 0, 0.568);
   transition-delay: 3s;
-
-}
-.staff:hover {
- 
 }
 .staff-img {
   height: 80%;
@@ -19021,26 +19011,31 @@ a.blog-desc1:hover {
 /*# sourceMappingURL=style-freedom.css.map */
 
 .nav-item {
-  margin-left: 10px;
+  margin-left: 30px;
+}
+
+.mydropdown {
+  z-index: 1 !important;
 }
 
 .myul {
   display: none;
   position: absolute;
-  width: 120%;
+  left: -40px;
   background-color: white;
   box-shadow: 2px 2px 5px blue;
-  padding: 0;
   margin: 0;
+  z-index: 2 !important;
 }
 
 .myul li {
   margin-bottom: 5px;
-  width: 100%;
-  color: black !important;
+  z-index: 2 !important;
 }
 .myul li a {
-  width: 100%;
+  width: 200px !important;
+  padding: 3px 40px;
+  z-index: 3 !important;
 }
 
 .myul li :hover {
