@@ -14402,7 +14402,8 @@ a.text-dark:focus {
 }
 
 :root {
-  --primary-color: #f35b04;
+  /* --primary-color: #f35b04; */
+  --primary-color: blue;
   --primary-light: #fcf1e7;
   --primary-dark: #161723;
   --secondary-color: #3d348b;
@@ -14623,16 +14624,21 @@ p.white {
   font-weight: 600;
   transition: 0.3s ease-in;
   border-radius: var(--border-radius);
+  background-color:blue;
+  border:none;
 }
+ 
 
 .btn-style span.fa {
   font-size: 12px;
   vertical-align: 1px;
   margin-left: 5px;
+  color:blue;
 }
 
 .transparent-btn {
   background: rgba(255, 255, 255, 0.25);
+  
 }
 
 .btn-white {
@@ -14643,7 +14649,7 @@ p.white {
   transition: 0.3s ease-in;
   border-radius: var(--border-radius);
   background-color: #fff;
-  color: var(--primary-color);
+  color: var(--primary-color); 
 }
 
 .hny-title {
@@ -15392,7 +15398,7 @@ header.nav-fixed {
   line-height: 66px;
   font-weight: 600;
   color: #fff;
-  text-shadow: 1px 2px 10px orange;
+  text-shadow: 1px 2px 10px blue;
 }
 
 .w3l-main-slider .banner-info-bg h5 span {
