@@ -136,7 +136,7 @@
                                 <div class="container">
                                     <div class="banner-info-bg">
                                         <h5>SNS School Mangaon, Raigad, Maharashtra</h5>
-                                        <p class="mt-4 pr-lg-4">  Lorem ipsum dolor sit amet consect te  harum nostrum officia possimus sapiente nisi cum, fugiat quam libero. Aliquid obcaecati tempore eligendi nemo non minima incidunt in? </p>
+                                        <p class="mt-4 pr-lg-4"> S.N. Shipurkar school was established in june 2009 Hon. Loknete Ashokdada sable and Hon. Adv. Rajivji Sable. To impart convert level english medium education for economically backword but intellectual students, the school was established. It was started with 50 students only. Now school having abode (N) students. The S.N Shipurkar Preprimary and Primary English medium school is govermented recognised school.</p>
 
                                         <a class="btn btn-style btn-primary mt-xl-5 mt-4 mr-2" href="tel:02140261444">Call Now<span class="fa fa-chevron-right ml-2"
                                                 aria-hidden="true"></span></a>
@@ -158,7 +158,7 @@
                                 <div class="container">
                                     <div class="banner-info-bg">
                                         <h5>SNS School Mangaon, Raigad, Maharashtra</h5>
-                                        <p class="mt-4 pr-lg-4"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eveniet ipsam saepe quos laborum illo fuga voluptatibus neque asperiores magnam, laudantium autem aspernatur vero dolorum, debitis minima consequatur! Quos, esse!</p>
+                                        <p class="mt-4 pr-lg-4"> S.N. Shipurkar school was established in june 2009 Hon. Loknete Ashokdada sable and Hon. Adv. Rajivji Sable. To impart convert level english medium education for economically backword but intellectual students, the school was established. It was started with 50 students only. Now school having abode (N) students. The S.N Shipurkar Preprimary and Primary English medium school is govermented recognised school.</p>
 
                                         <a class="btn btn-style btn-primary mt-xl-5 mt-4 mr-2" href="tel:02140261444 ">Call Now<span class="fa fa-chevron-right ml-2"
                                                 aria-hidden="true"></span></a>
@@ -177,7 +177,7 @@
                                 <div class="container">
                                     <div class="banner-info-bg">
                                         <h5>SNS School Mangaon, Raigad, Maharashtra</h5>
-                                        <p class="mt-4 pr-lg-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae perferendis aliquid iusto dolore aut laboriosam voluptas quae voluptatem laborum corrupti?</p>
+                                        <p class="mt-4 pr-lg-4"> S.N. Shipurkar school was established in june 2009 Hon. Loknete Ashokdada sable and Hon. Adv. Rajivji Sable. To impart convert level english medium education for economically backword but intellectual students, the school was established. It was started with 50 students only. Now school having abode (N) students. The S.N Shipurkar Preprimary and Primary English medium school is govermented recognised school.</p>
 
                                         <a class="btn btn-style btn-primary mt-xl-5 mt-4 mr-2" href="tel:02140261444">Call Now<span class="fa fa-chevron-right ml-2"
                                                 aria-hidden="true"></span></a>
@@ -196,7 +196,7 @@
                                 <div class="container">
                                     <div class="banner-info-bg">
                                         <h5>SNS School Mangaon, Raigad, Maharashtra</h5>
-                                        <p class="mt-4 pr-lg-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad asperiores ipsum voluptatum. Cum expedita fugiat illo, assumenda necessitatibus sint blanditiis? </p>
+                                        <p class="mt-4 pr-lg-4"> S.N. Shipurkar school was established in june 2009 Hon. Loknete Ashokdada sable and Hon. Adv. Rajivji Sable. To impart convert level english medium education for economically backword but intellectual students, the school was established. It was started with 50 students only. Now school having abode (N) students. The S.N Shipurkar Preprimary and Primary English medium school is govermented recognised school.</p>
 
                                         <a class="btn btn-style btn-primary mt-xl-5 mt-4 mr-2" href="tel:02140261444">Call Now<span class="fa fa-chevron-right ml-2"
                                                 aria-hidden="true"></span></a>
@@ -281,6 +281,7 @@
             <div class="header-title mb-3">
                 <span class="sub-title"></span>
                 <h3 class="hny-title text-left">Principal Message </h3>
+                <br/>
             </div>
 
             <div class="principal-msg"  style="display:flex; width:100%;  justify-content:center">
